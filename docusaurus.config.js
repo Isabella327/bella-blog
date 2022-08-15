@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'BellaChong',
-  tagline: 'Love is cool',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Love is so cool.',
+  url: 'http://www.bellachong.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -85,7 +85,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/docs/myIntro',
               },
             ],
           },
@@ -118,13 +118,13 @@ const config = {
               //   to: '/blog',
               // },
               {
-                label: 'Introduce',
-                href: 'http://82.157.246.37',
+                label: 'Docusaurus 2.0',
+                href: 'https://docusaurus.io/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `<div>Copyright © ${new Date().getFullYear()} 贝虫版权所有. <a href="https://beian.miit.gov.cn">京ICP备2022023572号-1</a></div>`,
       },
       prism: {
         theme: lightCodeTheme,

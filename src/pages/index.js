@@ -18,8 +18,8 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             // to="/docs/intro">
-            to="http://82.157.246.37/love/">
-            To 小宝 - 💗
+            to="/docs/myIntro">
+            💙 专注技术 💙
           </Link>
         </div>
       </div>
